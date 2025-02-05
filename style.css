@@ -6,10 +6,15 @@
 
 header {
     width: 70vw;
-    height: 8vh;
+    height: 10vh;
     background-color: black;
     position: sticky;
     margin: auto;
+}
+
+#logo{
+    width: 10%;
+    margin: 15px 0px 0px 10px;
 }
 
 body {
