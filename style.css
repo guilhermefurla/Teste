@@ -1,0 +1,46 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.media {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 36px 0 180px;
+    font-family: monospace;
+    font-size: 13px
+}
+
+.conteudo {
+    margin: 0 auto;
+    width: 100%;
+    padding-left: 44px;
+    padding-right: 44px;
+}
+
+.icons {
+    display: flex;
+    align-content: space-between;
+    margin-bottom: 33px;
+    margin-top: 10px;
+    border-bottom: solid 1px;
+    border-color: white;
+}
+
+.perfect-rodape {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
