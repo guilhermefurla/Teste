@@ -8,15 +8,33 @@ header {
     width: 70vw;
     height: 10vh;
     background-color: black;
-    position: sticky;
-    margin: auto;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 0px 0px 5px 5px;
+    z-index: 10;
 }
 
 #logo{
-    width: 10%;
-    margin: 15px 0px 0px 10px;
+    width: 60px;
+    margin: 15px 0px 0px 20px;
 }
 
-body {
-    
+.logo{
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+section{
+    width: 100vw;
+    height: 84vh;
+    background-image: url(images/img-super.webp);
+    background-size: 100vw;
+    background-repeat: no-repeat;
+}
+body{
+    height: 110vh;
 }
